@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(60, 210, 130);
+}
+
+table {
+  width: 480px;
+  height: 60px;
+}
+
+td {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(208, 163, 173);
+}
+
+.hovered {
+  background-color: black;
+}
+
+p {
+  float: left;
+  padding: 5px 10px;
+  background-color: red;
+  font-weight: bold;
+}
