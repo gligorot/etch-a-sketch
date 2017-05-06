@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(60, 210, 130);
+}
+
+table {
+  /*width: 480px;
+  height: 480px; */
+  border: 2px solid black;
+}
+
+td { /* .column was removed from here */
+  height: 30px;
+  width: 30px;
+  background-color: rgb(208, 163, 173);
+  padding:0px; /*questionable, MAY NEED TO REMOVE */
+}
+
+.col_created {
+  display:inline-block;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+}
+.row_created {
+  margin: 0px;
+  padding: 0px;
+  height: 30px;
+}
+.hovered {
+  background-color: black;
+}
+
+input {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 50px;
+  background-color: red;
+  font-weight: bold;
+}
